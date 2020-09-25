@@ -377,7 +377,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 13e7f68fe6259164faae5fb47ab26696, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,7 +539,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 13e7f68fe6259164faae5fb47ab26696, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2575,7 +2575,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 13e7f68fe6259164faae5fb47ab26696, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2668,7 +2668,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 13e7f68fe6259164faae5fb47ab26696, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3049,7 +3049,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 13e7f68fe6259164faae5fb47ab26696, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3089,6 +3089,7 @@ GameObject:
   - component: {fileID: 1170670768}
   - component: {fileID: 1170670767}
   - component: {fileID: 1170670769}
+  - component: {fileID: 1170670770}
   m_Layer: 0
   m_Name: DroneParent
   m_TagString: Untagged
@@ -3145,6 +3146,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 0
+--- !u!114 &1170670770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170670766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212cde911571d54418ebfc306d4ae5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {fileID: 1557057450}
+  end: {fileID: 1282537630}
 --- !u!1001 &1179279651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5217,6 +5232,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3617566601574204565, guid: b033431eaa63c4d4ab9d0178210b07cd,
     type: 3}
   m_PrefabInstance: {fileID: 1546061541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1557057450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2795456560732626411, guid: b033431eaa63c4d4ab9d0178210b07cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1539375668}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1578186365
 PrefabInstance:
